@@ -60,4 +60,4 @@ config.yamlのパラメータを変更すると正方形の幅も自動計測で
   
 <img src="https://user-images.githubusercontent.com/75115602/157582544-cb26b193-1ae8-4d7d-a9da-a66d5578fdd0.png" width="400px">
   
-【得られた(x_subpixel, y_subpixel)から基準画像と位置補正したい画像の移動量を計算し、その分を移動させて補正完了】  
+【(x_subpixel, y_subpixel)から基準画像と位置補正したい画像の移動量を計算。その分を移動させて補正完了】  
