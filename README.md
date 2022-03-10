@@ -11,7 +11,7 @@ SEM画像内の円柱の径や四角柱の幅を自動で計測するツール�
     
 - **機能**  
   
-[実行パラメータをyamlファイルで設定できる]  
+【実行パラメータをyamlファイルで設定できる】  
 config.yaml  
 ```
 # SEM画像フォルダ　各SEM画像は「CP1.bmp」などメタ原子径が分かるようにする
@@ -28,17 +28,17 @@ nm_pixel: 0.1535
 Out_Dirpath: ./Result/
 ```  
   
-[コマンド実行]  
+【コマンド実行】  
   
 <img src="https://user-images.githubusercontent.com/75115602/150537147-27237994-d763-43f8-853b-da3332fadd04.png" width="380px">
   
-[SEM画像内の構造の輪郭を複数検出]  
+【SEM画像内の構造の輪郭を複数検出】  
 ![fitting](https://user-images.githubusercontent.com/75115602/150671276-47b905ee-35e4-4012-bc6c-c1eb7efb6c5e.png)  
   
-[全ての画像について直径の計測結果をまとめ、出力]  
+【全ての画像について直径の計測結果をまとめ、出力】  
 <img src="https://user-images.githubusercontent.com/75115602/150671293-cd4598e0-e72d-4ed0-a428-3b47bf062e8c.png" width="350px">  
   
-[正方形の幅も計測できる]  
+【正方形の幅も計測できる】  
 config.yamlのパラメータを変更すると正方形の幅も自動計測できる。  
   
 <img src="https://user-images.githubusercontent.com/75115602/150893197-89a7e244-3d63-48fc-bfe2-2fbfd85c3d30.jpg" width="300px">  
@@ -52,12 +52,12 @@ config.yamlのパラメータを変更すると正方形の幅も自動計測で
   
 - **仕様**  
   
-[基準画像と補正を行いたい画像にテンプレート画像をマッチングさせる。]  
+【基準画像と補正を行いたい画像にテンプレート画像をマッチングさせる。】  
   
 <img src="https://user-images.githubusercontent.com/75115602/157582120-27133d26-c902-43a7-aa10-356740707044.png" width="380px">  
   
-[最もスコアが高い位置(一番一致する位置)をサブピクセルレベルで推定し、それぞれ取得(x_subpixel, y_subpixel)]  
+【最もスコアが高い位置(一番一致する位置)をサブピクセルレベルで推定し、それぞれ取得(x_subpixel, y_subpixel)】  
   
 <img src="https://user-images.githubusercontent.com/75115602/157582544-cb26b193-1ae8-4d7d-a9da-a66d5578fdd0.png" width="400px">
   
-[得られた(x_subpixel, y_subpixel)から基準画像と位置補正したい画像の移動量を計算し、その分を移動させて補正完了]
+【得られた(x_subpixel, y_subpixel)から基準画像と位置補正したい画像の移動量を計算し、その分を移動させて補正完了】  
