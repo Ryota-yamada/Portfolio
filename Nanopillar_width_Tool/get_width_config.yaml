@@ -1,0 +1,12 @@
+# SEM画像フォルダ　各SEM画像は「CP1.bmp」などメタ原子径が分かるようにする
+Image_Dirpath: ./Image/ 
+# 画像ファイルの拡張子
+extension: tif
+# 5号館SEMで撮ったか
+SEM_5: True
+# メタ原子の形 円: circle  正方形: square
+shape: circle
+# ImageJのsetscaleで 1nmあたり - pixelを出してください
+nm_pixel: 0.1535 
+# 出力フォルダ
+Out_Dirpath: ./Result/
