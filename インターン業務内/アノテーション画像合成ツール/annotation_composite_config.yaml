@@ -1,9 +1,0 @@
-annotation_path:
- - ./撮影条件1/ # 入力フォルダ
- - ./撮影条件2/
- - ./撮影条件3/
-dest_path: ./dest/
-extension: bmp
-replacement:
-    before: _02_  # 置換したい部分はannotation_pathで最初に指定したディレクトリ内のファイル名を基にすること
-    after: _composite_
